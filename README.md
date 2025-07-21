@@ -40,7 +40,7 @@ A aplicação tem como finalidade oferecer uma base sólida no desenvolvimento c
 
    ```bash
    git clone https://github.com/DeyvisonSSilva/JavaBank.git
-   cd sistema-bancario-java
+   cd JavaBank
    
 2. Compile e execute com uma IDE (como IntelliJ ou Eclipse) ou via terminal:
 

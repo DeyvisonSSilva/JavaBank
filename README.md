@@ -51,18 +51,26 @@ A aplicação tem como finalidade oferecer uma base sólida no desenvolvimento c
 
 ## 🗃️ Estrutura do Projeto
 
-src/
-│  
-├── domain/  
-│   ├── Account.java  
-│   ├── CheckingAccount.java  
-│   └── InvestmentAccount.java  
-│  
-├── service/  
-│   ├── AccountService.java  
-│   └── PixTransferService.java  
-│
-├── util/  
-│   └── MoneyAudit.java  
-│  
-└── Main.java  
+```
+src/  
+└── main/  
+    └──  
+        ├── exception/  
+        │   └── [classes de exceção].java  
+        │  
+        ├── model/  
+        │   ├── AccountWallet.java  
+        │   ├── BankService.java  
+        │   ├── Investment.java  
+        │   ├── InvestmentWallet.java  
+        │   ├── Money.java  
+        │   ├── MoneyAudit.java  
+        │   └── Wallet.java  
+        │  
+        ├── repository/  
+        │   ├── AccountRepository.java  
+        │   ├── CommonsRepository.java  
+        │   └── InvestmentRepository.java  
+        │  
+        └── Main.java
+```
